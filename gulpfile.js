@@ -13,7 +13,7 @@ gulp.task('watch', ['browser-sync', 'sass'], function() {
   
 });
 
-gulp.task('browser-sync', function() { // create task sync
+gulp.task('browser-sync', function() { 
   browserSync({ 
       server: { // options for server
           baseDir: 'app' // course dir - app
