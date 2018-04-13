@@ -10,6 +10,8 @@ gulp.task('sass', function(){
   });
 gulp.task('watch', ['browser-sync', 'sass'], function() {
     gulp.watch('app/sass/**/*.sass', ['sass']); // wach if we have changes in sass files
+    gulp.watch('app/*.html', browserSync.reload);
+    gulp.watch('app/js/**/*.js', browserSync.reload); 
   
 });
 
