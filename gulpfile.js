@@ -20,7 +20,7 @@ gulp.task('browser-sync', function() {
       server: { // options for server
           baseDir: 'app' // course dir - app
       },
-      notify: false 
+      notify: true 
   });
 });
 //test
