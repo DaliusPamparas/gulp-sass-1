@@ -18,6 +18,6 @@ gulp.task('browser-sync', function() { // create task sync
       server: { // options for server
           baseDir: 'app' // course dir - app
       },
-      notify: false 
+      notify: false //notifications
   });
 });
