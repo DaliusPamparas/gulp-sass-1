@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/DaliusPamparas/gulp-sass-1#readme",
   "devDependencies": {
+    "browser-sync": "^2.23.6",
     "gulp": "^3.9.1",
     "gulp-sass": "^4.0.1"
   }
